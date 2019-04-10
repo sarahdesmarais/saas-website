@@ -21,7 +21,7 @@ a {
   min-height: 16em;
   max-height: 24em;
   overflow: hidden;
-
+  position: relative;
 }
 
 .text-dark {
