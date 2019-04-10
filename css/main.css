@@ -2,6 +2,10 @@ html {
   font-family: "Raleway", sans-serif;
 }
 
+.img-flex {
+  display: block;
+  width: 100%
+}
 
 a {
   text-decoration: none;
@@ -20,12 +24,14 @@ a {
 
 .banner {
   position: relative;
+  max-height: 24em;
+  overflow: hidden;
 }
 
 .banner-content {
   position: absolute;
-  top: 2rem;
-  left: 2rem;
+  bottom: 2rem;
+  left: 0;
 }
 
 .text-dark {
@@ -34,4 +40,20 @@ a {
 
 .light-grey {
   background-color: #F4F4F4;
+}
+
+.blue {
+  background-color: rgb(144, 195, 190);
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav {
+  padding-left: 0;
+}
+
+.nav a:hover {
+  color: rgb(144, 195, 190);
 }
