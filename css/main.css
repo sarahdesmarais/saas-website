@@ -1,10 +1,5 @@
 html {
-  font-family: "Raleway", sans-serif;
-}
-
-.img-flex {
-  display: block;
-  width: 100%
+  font-family: Raleway, sans-serif;
 }
 
 a {
@@ -23,15 +18,10 @@ a {
 }
 
 .banner {
-  position: relative;
+  min-height: 16em;
   max-height: 24em;
   overflow: hidden;
-}
 
-.banner-content {
-  position: absolute;
-  bottom: 2rem;
-  left: 0;
 }
 
 .text-dark {
@@ -39,19 +29,11 @@ a {
 }
 
 .light-grey {
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
 }
 
 .blue {
   background-color: rgb(144, 195, 190);
-}
-
-.nav li {
-  display: inline-block;
-}
-
-.nav {
-  padding-left: 0;
 }
 
 .nav a:hover {
