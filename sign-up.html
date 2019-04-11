@@ -35,6 +35,67 @@
     <section class="banner embed embed-16by9">
       <img class="embed-item" src="images/signup.jpg" alt="macbook image">
     </section>
+
+    <section class="max-length pad-t-2">
+      <h2 class="text-center">Sign-Up</h2>
+      <form class="wrapper gutter-1-2" method="POST" action="https://formspree.io/desm0044@algonquinlive.com">
+        <fieldset class="push-1-4 pad-b">
+          <legend class="giga push-0">Your Information</legend>
+          <div class="grid pad-t">
+            <div class="push unit [ xs-1 s-1 m-1 l-1 ] ">
+              <label class="push-1-8" for="firstname">First Name</label>
+              <input class="push-1-8" id="firstname" name="firstname" required>
+            </div>
+            <div class="push unit [ xs-1 s-1 m-1 l-1 ] ">
+              <label class="push-1-8" for="lastname">Last Name</label>
+              <input class="push-1-8" id="lastname" name="lastname" required>
+            </div>
+            <div class="push unit [ xs-1 s-1 m-1 l-1 ] ">
+              <label class="push-1-8" for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="me@me.com" required>
+            </div>
+            <div class="push unit [ xs-1 s-1 m-1 l-1 ] ">
+              <label class="push-1-8" for="lastname">Company</label>
+              <input class="push-1-8" id="company" name="company" required>
+            </div>
+            <div class="push unit [ xs-1 s-1 m-1 l-1 ] ">
+              <label class="push-1-8" for="size">Who are you?</label>
+              <select id="who" name="who">
+                <option value="">Select option</option>
+                <option>Small business owner</option>
+                <option>Large business owner</option>
+                <option>Employee</option>
+              </select>
+            </div>
+            <div class="push unit [ xs-1 s-1 m-1 l-1 ] ">
+              <label class="push-1-8" for="number">Phone number <span class="optional italic">(optional)</span></label>
+              <input id="number" name="number" type="tel" required>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset class="grid">
+          <legend class="unit xs-1 s-1 m-1 l-1 giga pad-b-1-8 push-1-2">Choose your plan</legend>
+          <div class="push">
+            <input type="radio" name="plan" id="free">
+            <label class="unit xs-1 s-1 m-1 l-1 push-1-2"for="free">Free Trial</label>
+            <input type="radio" name="plan" id="basic">
+            <label class="unit xs-1 s-1 m-1 l-1 push-1-2" for="basic">Basic Plan</label>
+            <input type="radio" name="plan" id="premium">
+            <label class="unit xs-1 s-1 m-1 l-1 push-1-2" for="premium">Premium Plan</label>
+          </div>
+        </fieldset>
+
+        <div class="push-2">
+          <label class="push-1-2 kilo bold" for="message">Please let us know any comments or questions you may have.</label>
+          <textarea id="message"></textarea>
+        </div>
+
+        <div class="text-center pad-b-2">
+        <button class="giga bold btn btn-dark gutter-2" type="submit">Submit</button>
+      </div>
+      </form>
+    </section>
   </main>
 
   <footer role="contentinfo" class="text-white blue footer text-center micro island-1-2" tabindex="0">
