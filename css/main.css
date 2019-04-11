@@ -56,12 +56,17 @@ a {
 }
 
 table {
-  min-width: 40em;
+  min-width: 30em;
 }
 
 tbody tr:nth-child(odd) {
   background-color: #e2e2e2;
 }
+
+.name {
+  width: 15em;
+}
+
 
 @media only screen and (min-width: 38em) {
 
