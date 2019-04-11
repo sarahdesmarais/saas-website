@@ -28,6 +28,14 @@ a {
   color: #808080;
 }
 
+.text-white {
+  color: #fff;
+}
+
+.text-blue {
+  color: rgb(144, 195, 190);
+}
+
 .light-grey {
   background-color: #f4f4f4;
 }
@@ -38,4 +46,18 @@ a {
 
 .nav a:hover {
   color: rgb(144, 195, 190);
+}
+
+.card {
+  border: 3px solid #e4e4e4;
+  border-radius: .5rem;
+  background-color:
+}
+
+@media only screen and (min-width: 38em) {
+
+  .nav {
+    text-align: right;
+  }
+
 }
