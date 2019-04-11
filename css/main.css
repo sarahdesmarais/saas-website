@@ -8,13 +8,8 @@ a {
 }
 
 .btn-dark {
-  background-color: rgb(144, 195, 190);
-  border-color: rgb(144, 195, 190);
-}
-
-.btn-light {
-  background-color: rgb(199, 231, 226);
-  border-color: rgb(199, 231, 226);
+  background-color: #2f6c66;
+  border-color: #2f6c66;
 }
 
 .banner {
@@ -22,7 +17,7 @@ a {
   max-height: 24em;
   overflow: hidden;
   position: relative;
-  background-color: rgb(144, 195, 190);
+  background-color: #2f6c66;
 }
 
 .text-dark {
@@ -34,7 +29,7 @@ a {
 }
 
 .text-blue {
-  color: rgb(144, 195, 190);
+  color: #2f6c66;
 }
 
 .light-grey {
@@ -42,21 +37,20 @@ a {
 }
 
 .blue {
-  background-color: rgb(144, 195, 190);
+  background-color: #2f6c66;
 }
 
 .nav a:hover {
-  color: rgb(144, 195, 190);
+  color: #2f6c66;
 }
 
 .card {
   border: 3px solid #e4e4e4;
   border-radius: .5rem;
-  background-color:
 }
 
 table {
-  min-width: 30em;
+  min-width: 40em;
 }
 
 tbody tr:nth-child(odd) {
@@ -66,7 +60,6 @@ tbody tr:nth-child(odd) {
 .name {
   width: 15em;
 }
-
 
 @media only screen and (min-width: 38em) {
 
